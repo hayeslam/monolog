@@ -1,0 +1,13 @@
+{
+    "name": "hayes/monolog",
+    "keywords": ["log", "logging", "psr-3"],
+    "type": "library",
+    "require": {
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hayes\\Monolog\\": "src/"
+        }
+    }
+}
